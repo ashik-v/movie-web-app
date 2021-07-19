@@ -1,0 +1,17 @@
+---
+1: !ruby/object:Movie
+  title: Rush Hour
+  rating: '2'
+  id: 1
+2: !ruby/object:Movie
+  title: Memento
+  rating: '4'
+  id: 2
+3: !ruby/object:Movie
+  title: Inception
+  rating: '4'
+  id: 3
+4: !ruby/object:Movie
+  title: Shutter Island
+  rating: '3.5'
+  id: 4

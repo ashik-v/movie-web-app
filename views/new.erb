@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Movie</title>
+</head>
+<body>
+  <form method="post" action="/movies/create">
+    <table>
+      <tr>
+        <td>
+          <label for="title">Title: </label>
+        </td>
+        <td>
+          <input type="text" name="title">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="rating">Rating: </label>
+        </td>
+        <td>
+          <input type="text" name="rating">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="submit">
+        </td>
+      </tr>
+    </table>
+  </form>
+  <a href="/movies">Back to index</a>
+</body>
+</html>
