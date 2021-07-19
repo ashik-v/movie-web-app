@@ -4,10 +4,6 @@ require_relative 'lib/movie_store'
 
 store = MovieStore.new
 
-get '/' do
-  "Hello Chunky!"
-end
-
 get '/movies' do
   @movies = store.all
   erb :index
